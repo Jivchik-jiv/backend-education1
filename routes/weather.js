@@ -17,11 +17,11 @@ router.get(
     next();
   },
   async (req, res, next) => {
-    const { lat, lon } = req.query;
+    // const { lat, lon } = req.query;
 
     //   // Заглушка
-    // const lat = 34.76985711209172;
-    // const lon =32.42820350617798;
+    const lat = 34.76985711209172;
+    const lon = 32.42820350617798;
     // ///////////////////////////
 
     try {
